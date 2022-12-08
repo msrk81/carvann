@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
-   <h1>home</h1>
-  </div>
+  <index/>
 </template>
 
 <script>
+import Index from "@/components/home";
 export default {
   name: 'HomeView',
+  components: {Index},
 }
 </script>
