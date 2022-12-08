@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Black";
+    src: url("/public/fonts/IRANSansMobile_Black.ttf");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("/public/fonts/IRANSansMobile_Bold.ttf");
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url("/public/fonts/IRANSansMobile_Medium.ttf");
+}
+
+@font-face {
+    font-family: "Light";
+    src: url("/public/fonts/IRANSansMobile_Light.ttf");
+}
+
+@font-face {
+    font-family: "UltraLight";
+    src: url("/public/fonts/IRANSansMobile_UltraLight.ttf");
+}
+
+.font-black {
+    font-family: "Black", sans-serif;
+}
+
+.font-bold {
+    font-family: "Bold", sans-serif;
+}
+
+.font-medium {
+    font-family: "Medium", sans-serif;
+}
+
+.font-light {
+    font-family: "Light", sans-serif;
+}
+
+.font-ultra-light {
+    font-family: "UltraLight", sans-serif;
+}
