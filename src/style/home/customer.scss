@@ -1,8 +1,14 @@
 @import "src/style/app/variables";
 
 .title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
   margin-bottom: 100px;
@@ -50,8 +56,14 @@ section {
     background-color: $other-Card-Background;
 
     .slide-user-info {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       width: 100%;
       margin-bottom: 50px;
@@ -83,14 +95,20 @@ section {
   }
 
   .slide-pagination {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-top: 60px;
 
     div {
       width: 20px;
       height: 0;
+      -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
       transform: matrix(-1, 0, 0, 1, 0, 0);
       margin-left: 10px;
     }

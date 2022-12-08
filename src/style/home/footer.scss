@@ -28,6 +28,8 @@ footer {
   }
 
   .logo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-bottom: 24px;
 
@@ -45,7 +47,11 @@ footer {
 
   .call-info {
     div {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       width: 100%;
       margin-bottom: 9px;

@@ -24,8 +24,14 @@ section {
     }
 
     .title-box {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
 
       div {
@@ -83,8 +89,15 @@ section {
   .panels-label-items {
     width: 95%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
@@ -95,7 +108,11 @@ section {
       height: 30%;
       border-radius: 23px;
       background-color: $other-Card-Background;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
 
       h1 {
