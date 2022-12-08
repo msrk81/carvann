@@ -1,0 +1,66 @@
+@import "src/style/app/variables";
+
+section {
+  background-color: $other-Card-Background;
+  padding-top: 53px;
+  padding-bottom: 53px;
+
+  .title {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      width: 20px;
+      height: 68px;
+      top: 3px;
+      background: #D9F5EA;
+      border-radius: 6px;
+      margin-left: 21px;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+  }
+
+  .content {
+    width: 60%;
+
+    p {
+      color: $Text-Shade-300;
+      line-height: 190%;
+      font-size: 18px;
+      padding-top: 25px;
+      padding-bottom: 21px;
+
+    }
+
+    a {
+      font-size: 16px;
+      background-color: $Primary-primary;
+      color: #fff;
+      padding: 6px 18px;
+      border-radius: 6px;
+    }
+  }
+
+  .video {
+    position: relative;
+
+    .video-background {
+      width: 80%;
+      height: auto;
+    }
+
+    .video-preview {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      left: 10%;
+      top: 10%;
+    }
+  }
+}
+
