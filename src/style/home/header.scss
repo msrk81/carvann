@@ -1,5 +1,27 @@
 @import "src/style/app/variables";
 
+@mixin font-and-color($size,$color) {
+  font-size: $size;
+  color: $color;
+}
+
+@mixin bgc-and-border-and-color($bgc,$border,$color) {
+  background-color: $bgc;
+  border: $border;
+  color: $color;
+}
+
+@mixin shape($width,$height,$top,$left,$right,$bottom,$z-index) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  top: $top;
+  left: $left;
+  bottom: $bottom;
+  right: $right;
+  z-index: $z-index;
+}
+
 header {
   margin-top: 76px;
   padding-bottom: 7%;
@@ -9,22 +31,19 @@ header {
 
     .header-title {
       h1 {
-        font-size: 64px;
-        color: $Primary-primary;
+        @include font-and-color(64px, $Primary-primary);
         line-height: 80px;
       }
 
       span {
-        font-size: 48px;
-        color: $Secondary-secondary;
+        @include font-and-color(48px, $Secondary-secondary)
       }
 
       p {
+        @include font-and-color(21px, $gray-300);
         margin-top: 21px;
-        font-size: 21px;
         width: 80%;
         line-height: 190%;
-        color: $gray-300;
       }
     }
 
@@ -32,16 +51,12 @@ header {
       margin-top: 32px;
 
       .straight-link {
-        background-color: $Primary-primary;
-        border: 1px solid $Primary-primary;
-        color: #fff;
+        @include bgc-and-border-and-color($Primary-primary, 1px solid $Primary-primary, #fff);
         margin-left: 17px;
       }
 
       .bazaar-link {
-        background-color: #fff;
-        color: $Primary-shades-100;
-        border: 1px solid $Primary-shades-100;
+        @include bgc-and-border-and-color(#fff, $Primary-shades-100, 1px solid $Primary-shades-100)
       }
 
       a {
@@ -51,21 +66,11 @@ header {
     }
 
     .header-square2 {
-      position: absolute;
-      width: 16px;
-      height: auto;
-      bottom: 20%;
-      right: 20%;
-      z-index: 3;
+      @include shape(16px, auto, auto, auto, 20%, 20%, 3);
     }
 
     .header-circles {
-      position: absolute;
-      width: 20px;
-      height: auto;
-      top: -5%;
-      left: 30%;
-      z-index: 3;
+      @include shape(20px, auto, -5%, 30%, auto, auto, 3);
     }
   }
 
@@ -82,67 +87,32 @@ header {
     }
 
     .header-history {
-      position: absolute;
-      width: 243px;
-      height: auto;
-      bottom: 20%;
-      left: 15%;
-      z-index: 3;
+      @include shape(243px, auto, auto, 15%, auto, 20%, 3);
     }
 
     .header-reserve {
-      position: absolute;
-      width: auto;
-      height: 90px;
-      bottom: 5%;
-      right: -30%;
-      z-index: 1;
+      @include shape(auto, 90px, auto, auto, -30%, 5%, 1);
     }
 
     .header-turn {
-      position: absolute;
-      width: 900px;
-      height: auto;
-      bottom: -5%;
-      right: -75%;
-      z-index: 1;
+      @include shape(900px, auto, auto, auto, -75%, -5%, 1);
     }
 
     .header-polygon {
-      position: absolute;
-      width: 50px;
-      height: auto;
-      top: -3%;
-      right: 45%;
-      z-index: 1;
+      @include shape(50px, auto, -3%, auto, 45%, auto, 1);
     }
 
     .header-behind-circle {
-      position: absolute;
-      width: 200px;
-      height: auto;
-      top: 3%;
-      left: 15%;
-      z-index: 1;
+      @include shape(200px, auto, 3%, 15%, auto, auto, 1);
     }
 
     .header-square1 {
-      position: absolute;
-      width: 22px;
-      height: auto;
-      top: 41%;
-      left: 11%;
-      z-index: 1;
+      @include shape(22px, auto, 41%, 11%, auto, auto, 1);
     }
 
-    .header-background-green{
-      position: absolute;
-      width: 306px;
-      height: 140%;
-      left: 22%;
-      top: -30%;
+    .header-background-green {
+      @include shape(306px, 140%, -30%, 22%, auto, auto, -1);
       background: #F5FFFC;
-      z-index: -1;
     }
   }
 

@@ -1,0 +1,25 @@
+.stats-container {
+  background: linear-gradient(89.46deg, #24A973 1.15%, #54DBA4 99.53%);
+  box-shadow: 0px 4px 20px rgba(32, 153, 104, 0.05);
+  border-radius: 23px;
+  position: relative;
+  top: -111px;
+  z-index: 5;
+
+  .stats-item {
+    width: 90%;
+    display: block;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    margin: 18px auto;
+    padding: 39px;
+    text-align: center;
+    color: #fff;
+
+    p {
+      font-size: 16px;
+      padding-top: 16px;
+    }
+  }
+}

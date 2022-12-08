@@ -4,16 +4,18 @@
       <navigation-component/>
       <header-component/>
     </div>
+    <stats-component/>
   </div>
 </template>
 
 <script>
 import NavigationComponent from "@/components/home/navigation";
 import HeaderComponent from "@/components/home/header";
+import StatsComponent from "@/components/home/stats";
 
 export default {
   name: "indexComponent",
-  components: {HeaderComponent, NavigationComponent}
+  components: {StatsComponent, HeaderComponent, NavigationComponent}
 }
 </script>
 
