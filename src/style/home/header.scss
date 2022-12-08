@@ -56,7 +56,7 @@ header {
       }
 
       .bazaar-link {
-        @include bgc-and-border-and-color(#fff, $Primary-shades-100, 1px solid $Primary-shades-100)
+        @include bgc-and-border-and-color(#fff,  1px solid $Primary-shades-100, $Primary-shades-100)
       }
 
       a {

@@ -5,6 +5,7 @@
       <header-component/>
     </div>
     <stats-component/>
+    <panels-component/>
   </div>
 </template>
 
@@ -12,10 +13,11 @@
 import NavigationComponent from "@/components/home/navigation";
 import HeaderComponent from "@/components/home/header";
 import StatsComponent from "@/components/home/stats";
+import PanelsComponent from "@/components/home/panels";
 
 export default {
   name: "indexComponent",
-  components: {StatsComponent, HeaderComponent, NavigationComponent}
+  components: {PanelsComponent, StatsComponent, HeaderComponent, NavigationComponent}
 }
 </script>
 
