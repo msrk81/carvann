@@ -10,6 +10,7 @@
     <video-component/>
     <customer-component/>
     <company-component/>
+    <download-component/>
   </div>
 </template>
 
@@ -22,10 +23,12 @@ import FeaturesComponent from "@/components/home/features";
 import VideoComponent from "@/components/home/video";
 import CustomerComponent from "@/components/home/customer";
 import CompanyComponent from "@/components/home/company";
+import DownloadComponent from "@/components/home/download";
 
 export default {
   name: "indexComponent",
   components: {
+    DownloadComponent,
     CompanyComponent,
     CustomerComponent,
     VideoComponent,
