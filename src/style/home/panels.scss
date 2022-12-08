@@ -1,5 +1,11 @@
 @import "src/style/app/variables";
 
+@mixin center-align-with-block() {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 section {
   padding-bottom: 139px;
 
@@ -39,10 +45,8 @@ section {
 
   .panels-items {
     .panels-item {
+      @include center-align-with-block();
       width: 95%;
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
       background-color: $other-Card-Background;
       padding-top: 5%;
       padding-bottom: 26px;
@@ -64,9 +68,7 @@ section {
       .panels-item-image {
         background: rgba(36, 169, 115, 0.3);
         width: 90%;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
+        @include center-align-with-block();
         border-radius: 11px;
 
         img {
@@ -117,9 +119,7 @@ section {
         img {
           width: 30px;
           height: auto;
-          display: block;
-          margin-right: auto;
-          margin-left: auto;
+          @include center-align-with-block();
           margin-top: 15px;
         }
       }

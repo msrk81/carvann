@@ -6,6 +6,7 @@
     </div>
     <stats-component/>
     <panels-component/>
+    <features-component/>
   </div>
 </template>
 
@@ -14,10 +15,11 @@ import NavigationComponent from "@/components/home/navigation";
 import HeaderComponent from "@/components/home/header";
 import StatsComponent from "@/components/home/stats";
 import PanelsComponent from "@/components/home/panels";
+import FeaturesComponent from "@/components/home/features";
 
 export default {
   name: "indexComponent",
-  components: {PanelsComponent, StatsComponent, HeaderComponent, NavigationComponent}
+  components: {FeaturesComponent, PanelsComponent, StatsComponent, HeaderComponent, NavigationComponent}
 }
 </script>
 
