@@ -11,6 +11,7 @@
     <customer-component/>
     <company-component/>
     <download-component/>
+    <footer-component/>
   </div>
 </template>
 
@@ -24,10 +25,12 @@ import VideoComponent from "@/components/home/video";
 import CustomerComponent from "@/components/home/customer";
 import CompanyComponent from "@/components/home/company";
 import DownloadComponent from "@/components/home/download";
+import FooterComponent from "@/components/home/footer";
 
 export default {
   name: "indexComponent",
   components: {
+    FooterComponent,
     DownloadComponent,
     CompanyComponent,
     CustomerComponent,

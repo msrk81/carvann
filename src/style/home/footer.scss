@@ -1,0 +1,79 @@
+@import "src/style/app/variables";
+
+footer {
+  background-color: #F2FFFC;
+  padding-top: 77px;
+
+  ul {
+    padding-top: 30px;
+
+    li {
+      color: $Primary-primary;
+      margin-bottom: 6px;
+
+      span {
+        color: #666666;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .about {
+    p {
+      font-size: 16px;
+      line-height: 200%;
+      width: 75%;
+      color: #666666;
+    }
+  }
+
+  .logo {
+    display: inline-flex;
+    margin-bottom: 24px;
+
+    h2 {
+      font-size: 16px;
+      color: $Text-primary;
+    }
+
+    img {
+      margin-left: 18px;
+      width: 20px;
+      height: auto;
+    }
+  }
+
+  .call-info {
+    div {
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 9px;
+
+      img {
+        width: 16px;
+        height: auto;
+        margin-left: 18px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #666666;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .copyright {
+    background-color: #E6FAF2;
+    margin-top: 70px;
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      color: #888888;
+      padding-top: 11px;
+      padding-bottom: 11px;
+    }
+  }
+}
