@@ -1,0 +1,149 @@
+@import "src/style/app/variables";
+
+header {
+  margin-top: 76px;
+  padding-bottom: 7%;
+
+  .header-text {
+    position: relative;
+
+    .header-title {
+      h1 {
+        font-size: 64px;
+        color: $Primary-primary;
+        line-height: 80px;
+      }
+
+      span {
+        font-size: 48px;
+        color: $Secondary-secondary;
+      }
+
+      p {
+        margin-top: 21px;
+        font-size: 21px;
+        width: 80%;
+        line-height: 190%;
+        color: $gray-300;
+      }
+    }
+
+    .header-buttons {
+      margin-top: 32px;
+
+      .straight-link {
+        background-color: $Primary-primary;
+        border: 1px solid $Primary-primary;
+        color: #fff;
+        margin-left: 17px;
+      }
+
+      .bazaar-link {
+        background-color: #fff;
+        color: $Primary-shades-100;
+        border: 1px solid $Primary-shades-100;
+      }
+
+      a {
+        padding: 8px 16px;
+        border-radius: 8px;
+      }
+    }
+
+    .header-square2 {
+      position: absolute;
+      width: 16px;
+      height: auto;
+      bottom: 20%;
+      right: 20%;
+      z-index: 3;
+    }
+
+    .header-circles {
+      position: absolute;
+      width: 20px;
+      height: auto;
+      top: -5%;
+      left: 30%;
+      z-index: 3;
+    }
+  }
+
+  .header-character {
+    position: relative;
+    right: 10%;
+
+    img {
+      margin-top: -5%;
+      width: 60%;
+      height: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .header-history {
+      position: absolute;
+      width: 243px;
+      height: auto;
+      bottom: 20%;
+      left: 15%;
+      z-index: 3;
+    }
+
+    .header-reserve {
+      position: absolute;
+      width: auto;
+      height: 90px;
+      bottom: 5%;
+      right: -30%;
+      z-index: 1;
+    }
+
+    .header-turn {
+      position: absolute;
+      width: 900px;
+      height: auto;
+      bottom: -5%;
+      right: -75%;
+      z-index: 1;
+    }
+
+    .header-polygon {
+      position: absolute;
+      width: 50px;
+      height: auto;
+      top: -3%;
+      right: 45%;
+      z-index: 1;
+    }
+
+    .header-behind-circle {
+      position: absolute;
+      width: 200px;
+      height: auto;
+      top: 3%;
+      left: 15%;
+      z-index: 1;
+    }
+
+    .header-square1 {
+      position: absolute;
+      width: 22px;
+      height: auto;
+      top: 41%;
+      left: 11%;
+      z-index: 1;
+    }
+
+    .header-background-green{
+      position: absolute;
+      width: 306px;
+      height: 140%;
+      left: 22%;
+      top: -30%;
+      background: #F5FFFC;
+      z-index: -1;
+    }
+  }
+
+}

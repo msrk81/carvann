@@ -1,0 +1,52 @@
+@import "../app/variables";
+
+@mixin inline-flex() {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+nav {
+  padding-top: 2%;
+
+  .logo {
+    img {
+      width: 35%;
+      height: auto;
+      cursor: pointer;
+    }
+  }
+
+  .menu-items {
+    @include inline-flex;
+    width: 60%;
+
+    p {
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  }
+
+  .menu-panel {
+    @include inline-flex;
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+
+    &-item {
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+
+      p {
+        font-size: 16px;
+        margin-left: 15px;
+        color: $Primary-shades-200;
+      }
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+}

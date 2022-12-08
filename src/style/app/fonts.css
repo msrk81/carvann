@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: "Regular";
+    src: url("/public/fonts/IRANSansMobile.ttf");
+}
+
+@font-face {
     font-family: "Medium";
     src: url("/public/fonts/IRANSansMobile_Medium.ttf");
 }
@@ -29,6 +34,10 @@
 
 .font-bold {
     font-family: "Bold", sans-serif;
+}
+
+.font-regular {
+    font-family: "Regular", sans-serif;
 }
 
 .font-medium {
