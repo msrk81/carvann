@@ -9,6 +9,7 @@
     <features-component/>
     <video-component/>
     <customer-component/>
+    <company-component/>
   </div>
 </template>
 
@@ -20,12 +21,19 @@ import PanelsComponent from "@/components/home/panels";
 import FeaturesComponent from "@/components/home/features";
 import VideoComponent from "@/components/home/video";
 import CustomerComponent from "@/components/home/customer";
+import CompanyComponent from "@/components/home/company";
 
 export default {
   name: "indexComponent",
   components: {
+    CompanyComponent,
     CustomerComponent,
-    VideoComponent, FeaturesComponent, PanelsComponent, StatsComponent, HeaderComponent, NavigationComponent
+    VideoComponent,
+    FeaturesComponent,
+    PanelsComponent,
+    StatsComponent,
+    HeaderComponent,
+    NavigationComponent
   }
 }
 </script>
