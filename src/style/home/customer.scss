@@ -1,0 +1,106 @@
+@import "src/style/app/variables";
+
+.title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+
+  div {
+    width: 20px;
+    height: 68px;
+    top: 3px;
+    background: #D9F5EA;
+    border-radius: 6px;
+    margin-left: 21px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+section {
+  padding-top: 140px;
+  margin-bottom: 78px;
+
+  .arrow {
+    background-color: $Primary-primary;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+
+    img {
+      margin-right: 12px;
+      margin-top: 12px;
+      width: 24px;
+      height: auto;
+    }
+  }
+
+  .slide {
+    padding: 64px 76px;
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $other-Card-Background;
+
+    .slide-user-info {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 50px;
+
+      img {
+        width: 53px;
+        height: auto;
+        margin-left: 11px;
+      }
+
+      h2 {
+        font-size: 16px;
+        color: $Text-primary;
+      }
+
+      p {
+        padding-top: 5px;
+        font-size: 12px;
+        color: $Text-Shade-300;
+      }
+    }
+
+    .slide-message {
+      color: $Secondary-secondary;
+      font-size: 18px;
+      line-height: 190%;
+      text-align: center;
+    }
+  }
+
+  .slide-pagination {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+
+    div {
+      width: 20px;
+      height: 0;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      margin-left: 10px;
+    }
+
+    .active {
+      border: 2px solid $Secondary-secondary;
+    }
+
+    .deActive {
+      border: 2px solid #CCD0D2;
+    }
+  }
+}

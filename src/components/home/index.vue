@@ -8,6 +8,7 @@
     <panels-component/>
     <features-component/>
     <video-component/>
+    <customer-component/>
   </div>
 </template>
 
@@ -18,10 +19,14 @@ import StatsComponent from "@/components/home/stats";
 import PanelsComponent from "@/components/home/panels";
 import FeaturesComponent from "@/components/home/features";
 import VideoComponent from "@/components/home/video";
+import CustomerComponent from "@/components/home/customer";
 
 export default {
   name: "indexComponent",
-  components: {VideoComponent, FeaturesComponent, PanelsComponent, StatsComponent, HeaderComponent, NavigationComponent}
+  components: {
+    CustomerComponent,
+    VideoComponent, FeaturesComponent, PanelsComponent, StatsComponent, HeaderComponent, NavigationComponent
+  }
 }
 </script>
 
