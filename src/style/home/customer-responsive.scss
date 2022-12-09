@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+  section {
+
+    .arrow {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    .title {
+      div {
+        display: none;
+      }
+    }
+  }
+}

@@ -37,4 +37,5 @@ export default {
 
 <style scoped lang="scss">
 @import "src/style/home/video";
+@import "../../style/home/video-responsive";
 </style>

@@ -49,4 +49,5 @@ export default {
 
 <style scoped lang="scss">
 @import "src/style/home/company";
+@import "src/style/home/company-responsive";
 </style>

@@ -74,4 +74,5 @@ export default {
 
 <style scoped lang="scss">
 @import "../../style/home/footer";
+@import "src/style/home/footer-responsive";
 </style>

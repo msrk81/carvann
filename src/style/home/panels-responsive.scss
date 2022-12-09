@@ -1,0 +1,44 @@
+@media (max-width: 992px) {
+  section {
+    padding-bottom: 70px;
+
+    .panels-title {
+      .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+      }
+
+      p {
+        text-align: center;
+        line-height: 200%;
+      }
+    }
+
+    .panels-item {
+      margin-bottom: 20px;
+    }
+
+    .panels-label-items {
+      display: none;
+    }
+
+    .title-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  section {
+
+    .title-box {
+      div {
+        display: none;
+      }
+    }
+  }
+}

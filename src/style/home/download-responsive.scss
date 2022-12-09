@@ -1,0 +1,19 @@
+@media (max-width: 992px) {
+  section {
+    .box {
+      img {
+        display: none;
+      }
+
+      .box-content {
+        img {
+          display: block;
+        }
+
+        div {
+          padding: 50px;
+        }
+      }
+    }
+  }
+}

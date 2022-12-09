@@ -50,4 +50,5 @@ export default {
 
 <style scoped lang="scss">
 @import "../../style/home/navigation";
+@import "src/style/home/navigation-responsive";
 </style>

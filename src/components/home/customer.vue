@@ -55,4 +55,5 @@ export default {
 
 <style scoped lang="scss">
 @import "src/style/home/customer";
+@import "src/style/home/customer-responsive";
 </style>

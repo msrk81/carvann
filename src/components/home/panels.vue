@@ -103,4 +103,5 @@ export default {
 
 <style scoped lang="scss">
 @import "src/style/home/panels";
+@import "src/style/home/panels-responsive";
 </style>

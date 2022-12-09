@@ -34,4 +34,5 @@ export default {
 
 <style scoped lang="scss">
 @import "src/style/home/download";
+@import "src/style/home/download-responsive";
 </style>

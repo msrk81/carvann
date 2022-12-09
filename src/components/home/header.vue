@@ -47,4 +47,5 @@ export default {
 <style scoped lang="scss">
 @import "src/style/home/header";
 @import "src/style/home/header-animation";
+@import "src/style/home/header-responsive";
 </style>

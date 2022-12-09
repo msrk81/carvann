@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+  section {
+    .title {
+      width: 100%;
+    }
+
+    .content {
+      width: 100% !important;
+      margin-bottom: 50px;
+
+      p {
+        text-align: center;
+      }
+
+      a {
+        margin-right: 35%;
+      }
+    }
+
+    .video-background {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .video-preview {
+      width: 95% !important;
+      left: 2% !important;
+      top: 15% !important;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    .title div {
+      display: none;
+    }
+  }
+}

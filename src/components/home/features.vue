@@ -164,4 +164,5 @@ export default {
 <style scoped lang="scss">
 @import "src/style/home/features";
 @import "src/style/home/features-animation";
+@import "src/style/home/features-responsive";
 </style>

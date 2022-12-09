@@ -56,7 +56,7 @@ header {
       }
 
       .bazaar-link {
-        @include bgc-and-border-and-color(#fff,  1px solid $Primary-shades-100, $Primary-shades-100)
+        @include bgc-and-border-and-color(#fff, 1px solid $Primary-shades-100, $Primary-shades-100)
       }
 
       a {
@@ -95,7 +95,7 @@ header {
     }
 
     .header-turn {
-      @include shape(900px, auto, auto, auto, -75%, -5%, 1);
+      @include shape(180px, auto, auto, auto, -15%, 65%, 1);
     }
 
     .header-polygon {
