@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import NavigationComponent from "@/components/home/navigation";
+import NavigationComponent from "@/components/global/navigation";
 import HeaderComponent from "@/components/home/header";
 import StatsComponent from "@/components/home/stats";
 import PanelsComponent from "@/components/home/panels";
@@ -25,7 +25,7 @@ import VideoComponent from "@/components/home/video";
 import CustomerComponent from "@/components/home/customer";
 import CompanyComponent from "@/components/home/company";
 import DownloadComponent from "@/components/home/download";
-import FooterComponent from "@/components/home/footer";
+import FooterComponent from "@/components/global/footer";
 
 export default {
   name: "indexComponent",

@@ -73,5 +73,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "src/style/home/footer";
+@import "../../style/home/footer";
 </style>
