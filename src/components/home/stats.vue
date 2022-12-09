@@ -55,4 +55,5 @@ export default {
 
 <style scoped lang="scss">
 @import "src/style/home/stats";
+@import "src/style/home/stats-animation";
 </style>

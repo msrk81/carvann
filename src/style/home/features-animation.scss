@@ -1,0 +1,11 @@
+.feature-content-list div img{
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+.feature-content-list div:hover img {
+  -webkit-transform: rotate(359deg) scale(1.2);
+  -ms-transform: rotate(359deg) scale(1.2);
+  transform: rotate(359deg) scale(1.2);
+}
